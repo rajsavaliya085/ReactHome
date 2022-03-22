@@ -1,18 +1,18 @@
 import EStyleSheet from 'react-native-extended-stylesheet';
 import {getColorScheme} from '../../../values/Colors';
-import {Platform} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 const Colors = getColorScheme();
 
-export const splashStyles = EStyleSheet.create({
+export const splashStyles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: Colors.primary,
-        justifyContent:'center',
         alignItems:'center',
+        justifyContent:'center'
     },
     image: {
-        width: '50rem',
-        height: '50rem',
+        width: 100,
+        height: 100,
     },
     imageContainer: {
 

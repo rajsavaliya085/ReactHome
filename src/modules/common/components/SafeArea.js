@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, SafeAreaView, StatusBar} from 'react-native';
+import {View, SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import {getColorScheme} from '../../../values/Colors';
 import {connect} from 'react-redux';
@@ -63,7 +63,7 @@ const mapDispatchToProps = {};
 
 export default connect(mapStateToProps, mapDispatchToProps)(SafeArea);
 
-const styles = EStyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: Colors.primary,

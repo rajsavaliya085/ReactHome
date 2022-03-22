@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Image} from 'react-native';
+import {View, Image, StyleSheet} from 'react-native';
 import SafeArea from 'src/modules/common/components/SafeArea';
 import {splashStyles as styles} from '../styles/splashStyles';
 import {connect} from 'react-redux';
